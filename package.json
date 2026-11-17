@@ -1,0 +1,45 @@
+{
+  "name": "peptide-notation-parser",
+  "version": "1.0.0",
+  "description": "Parse modified peptide notation (stereo prefixes, Ac- and -NH2 caps, Aib, Nle, D-2-Nal, Lys(acyl), cyclo rings, disulfides) into residues, termini and anything unrecognised.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test"
+  },
+  "keywords": [
+    "peptide",
+    "notation",
+    "sequence",
+    "parser",
+    "non-standard-amino-acids",
+    "bioinformatics",
+    "chemistry",
+    "typescript"
+  ],
+  "author": "Volta Peptides (https://voltapeptides.com)",
+  "homepage": "https://voltapeptides.com/catalog",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamcobleio-cyber/Peptide-Notation-Parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/teamcobleio-cyber/Peptide-Notation-Parser/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

@@ -1,0 +1,892 @@
+{
+  "ace-031": {
+    "name": "ACE-031",
+    "sequence": "GRGEAETRECIYYNANWELERTNQSGLERCEGEQDKRLHCYASWRNSSGTIELVKKGCWLDDFNCYDRQECVATEENPQVYFCCCEGNFCNERFTHLPEAGGPEVTYEPPPTAPTGGGTHTCPPCPAPELLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPVPIEKTISKAKGQPREPQVYTLPPSREEMTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGK",
+    "residueCount": 343,
+    "notation": "One-letter code for one subunit, 343 residues, as registered in the FDA substance record for ramatercept. The molecule is a homodimer of two identical copies of this chain. Residues 1 to 115 are byte-identical to UniProt Q13705 residues 20 to 134, the extracellular region of the human activin receptor type IIB; residues 116 to 118 are the Gly-Gly-Gly linker; residues 119 to 343 are the human IgG1 Fc, beginning at the hinge sequence THTCPPCPAPELLG and ending at the CH3 terminus SLSLSPGK. No part of the receptor's transmembrane segment or kinase domain is present.",
+    "modifications": [
+      {
+        "position": "Intrachain disulfides 10-40, 30-58, 65-84, 71-83 and 85-90",
+        "description": "The five disulfide bridges of the receptor's extracellular domain, reported in the construct's own numbering. They correspond exactly to the pairs annotated on the receptor as Cys29-Cys59, Cys49-Cys77, Cys84-Cys103, Cys90-Cys102 and Cys104-Cys109, and all five are present in the deposited crystal structure of the same domain."
+      },
+      {
+        "position": "Intrachain disulfides 157-217 and 263-321",
+        "description": "The two conserved internal bridges of the IgG1 CH2 and CH3 domains."
+      },
+      {
+        "position": "Cys122 and Cys125",
+        "description": "The two hinge cysteines, which form interchain bridges and covalently link the two subunits into the homodimer. Both sit inside the THTCPPCPAPELLG hinge segment, three and six residues after the linker."
+      },
+      {
+        "position": "Asn23, Asn46 and Asn193",
+        "description": "Three N-glycosylation sequons, each an Asn-X-Ser/Thr motif confirmed in the registered sequence. The first two are the receptor's own annotated sites (Asn42 and Asn65 of Q13705) and the third is the conserved Fc site in the CH2 domain. The glycans themselves are not characterised in any public record read here, and the attached glycan composition depends on the expression system, so no glycoform is stated."
+      }
+    ]
+  },
+  "adipotide": {
+    "name": "Adipotide",
+    "sequence": "Cys-Lys-Gly-Gly-Arg-Ala-Lys-Asp-Cys-Gly-Gly-D-Lys-D-Leu-D-Ala-D-Lys-D-Leu-D-Ala-D-Lys-D-Lys-D-Leu-D-Ala-D-Lys-D-Leu-D-Ala-D-Lys",
+    "residueCount": 25,
+    "notation": "Three-letter sequence, positions 1 to 25, written as the primary literature writes it: CKGGRAKDC-GG-D(KLAKLAK)2. Residues 1 to 9 are L-amino acids and the two cysteines at positions 1 and 9 are described as cyclising that domain. Positions 10 and 11 are the achiral glycine-glycine spacer. Positions 12 to 25 are the D-enantiomer of the repeat KLAKLAK taken twice. In one-letter code, ignoring configuration, the chain reads CKGGRAKDCGGKLAKLAKKLAKLAK.",
+    "modifications": [
+      {
+        "position": "1 and 9",
+        "description": "The two cysteines of the homing domain. The paper that named adipotide calls the selected motif cyclic, citing the discovery paper for the selection, and in a phage-display-derived CX7C motif cyclic means a disulfide between the flanking cysteines. The descriptor traces to that 2011 paper and not to the 2004 one: the discovery paper was read here as an abstract only, and that abstract gives the sequence without describing any cyclisation. Neither work read states whether the finished chimera carries the bridge. The PubChem record for the compound deposits the reduced form with two free thiols rather than the bridge, so the oxidation state of a given preparation is not settled by the records alone."
+      },
+      {
+        "position": "12 to 25",
+        "description": "All fourteen residues of the (KLAKLAK)2 arm are D-amino acids. This is deliberate and is the point of the design: the D configuration resists proteolysis while leaving the amphipathic helical geometry that the activity depends on. The PubChem stereodescriptors match, reading L across residues 1 to 9 and D across this segment."
+      },
+      {
+        "position": "10 and 11",
+        "description": "A glycine-glycine spacer separating the two domains. Glycine is achiral, so the spacer is also the junction between the L and D halves of the molecule."
+      }
+    ]
+  },
+  "ahk-cu": {
+    "name": "AHK-Cu",
+    "sequence": "AHK",
+    "residueCount": 3,
+    "notation": "One-letter code, H-Ala-His-Lys-OH (free N-terminal amine, free C-terminal carboxylate), all residues L, with one Cu(II) ion bound in the registered 1:1 form",
+    "modifications": [
+      {
+        "position": "Ala1 alpha-amine, Ala1-His2 amide nitrogen, His2 imidazole nitrogen",
+        "description": "Expected equatorial Cu(II) site, by analogy with every studied Xxx-His peptide: the N-terminal amine, the deprotonated amide nitrogen of the first peptide bond and the histidine imidazole form two fused chelate rings, leaving a fourth equatorial position for water or another ligand. The PubChem name for the complex draws the copper on the alanine nitrogen, the histidine amide nitrogen and the imidazole N3. No spectroscopic or crystallographic study of AHK-Cu itself was found to confirm this."
+      },
+      {
+        "position": "Lys3 side-chain amine",
+        "description": "In the parent complex Cu(II)-GHK the lysine side-chain amine is protonated and not bound to copper at physiological pH. The same is expected for AHK but has not been measured."
+      }
+    ]
+  },
+  "aod-9604": {
+    "name": "AOD-9604",
+    "sequence": "Tyr-Leu-Arg-Ile-Val-Gln-Cys-Arg-Ser-Val-Glu-Gly-Ser-Cys-Gly-Phe",
+    "residueCount": 16,
+    "notation": "Three-letter sequence read amino terminus to carboxyl terminus; one-letter code YLRIVQCRSVEGSCGF. Positions 2 to 16 correspond to residues 177 to 191 of the mature 191-residue human growth hormone chain, which is residues 203 to 217 of the UniProt P01241 precursor, the signal peptide occupying the first 26 precursor positions. Position 1 is a tyrosine that belongs to no part of the hormone. The cysteines at positions 7 and 14 are the hormone own Cys182 and Cys189.",
+    "modifications": [
+      {
+        "position": "7 and 14",
+        "description": "An intramolecular disulfide bridge between the two cysteine side chains, closing a ring of eight residues. It is the hormone own second disulfide carried into the fragment rather than an addition: the FDA substance record states the linkage as cyclic (7 to 14) and records it as disulfideLinks 1_7;1_14, the PubChem isomeric SMILES is drawn with the bridge closed, and the same pair is annotated on the parent sequence as Cys182 to Cys189. The 2024 description of the molecule by its later development programme calls it a 16-amino-acid cyclic peptide, independently of either record."
+      },
+      {
+        "position": "1",
+        "description": "A tyrosine added at the amino terminus. It is the single feature distinguishing this peptide from the growth hormone sequence, it is present in no form of the hormone, and the acyl portion of the FDA systematic name opens with L-tyrosyl for that reason, the name itself being written in the inverted form that takes L-phenylalanine as its parent. The 2015 doping-control characterisation states the same thing in words: the 177-191 fragment with an additional tyrosine residue at the N-terminus."
+      },
+      {
+        "position": "1 and 16",
+        "description": "Both termini are otherwise unmodified: a free alpha-amino group on Tyr1 and a free carboxylate on Phe16, which is the natural carboxyl terminus of the hormone. There is no acetylation, no amide cap, and no lipid, polyethylene glycol, glycan or metal anywhere on the molecule. The FDA record structuralModifications array is empty."
+      }
+    ]
+  },
+  "ara-290": {
+    "name": "ARA-290 (cibinetide)",
+    "sequence": "UEQLERALNSS",
+    "residueCount": 11,
+    "notation": "Eleven residues, N-terminus to C-terminus. The letter U at position 1 stands for pyroglutamate, which is how the PubChem synonym list writes this sequence; that is a local convention and a trap, because U is ordinarily the one-letter code for selenocysteine, an element this molecule does not contain. In three-letter form the chain is Pyr-Glu-Gln-Leu-Glu-Arg-Ala-Leu-Asn-Ser-Ser. Every residue after position 1 is proteinogenic, the C-terminus is a free carboxylate, and the backbone carries no other modification.",
+    "modifications": [
+      {
+        "position": "1",
+        "description": "Pyroglutamate (5-oxo-L-proline). The side-chain carboxyl of a glutamate residue is condensed with its own alpha-amino group to give a five-membered lactam, so the chain begins in a ring and has no free N-terminal amine. The FDA substance record names position 1 L-PYR and the PubChem IUPAC name renders the same group as 5-oxopyrrolidine-2-carbonyl."
+      }
+    ]
+  },
+  "bpc-157": {
+    "name": "BPC-157",
+    "sequence": "GEPPPGKPADDAGLV",
+    "residueCount": 15,
+    "notation": "One-letter sequence, positions 1 to 15, N-terminus to C-terminus. In three-letter form: Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val. All residues are proteinogenic and the backbone carries no modification at either terminus.",
+    "modifications": []
+  },
+  "cagrilintide": {
+    "name": "Cagrilintide",
+    "sequence": "Lys(acyl)-Cys-Asn-Thr-Ala-Thr-Cys-Ala-Thr-Gln-Arg-Leu-Ala-Glu-Phe-Leu-Arg-His-Ser-Ser-Asn-Asn-Phe-Gly-Pro-Ile-Leu-Pro-Pro-Thr-Asn-Val-Gly-Ser-Asn-Thr-Pro-NH2",
+    "residueCount": 37,
+    "notation": "Three-letter sequence, positions 1 to 37, numbered as in the amylin literature. In one-letter code the backbone is KCNTATCATQRLAEFLRHSSNNFGPILPPTNVGSNTP. Lys1 carries the side-chain conjugate described under modifications, Cys2 and Cys7 are joined by a disulfide, and position 37 is a proline amide rather than a free carboxylate.",
+    "modifications": [
+      {
+        "position": "1",
+        "description": "N-terminal acylation. The registry records the modified residue as N-(19-carboxy-1-oxononadecyl)-L-gamma-glutamyl-L-lysine: eicosanedioic acid, a C20 alpha,omega-dicarboxylic acid, joined to the lysine through a gamma-linked L-glutamate, with the distal carboxylate of the diacid left free. There is no polyethylene glycol spacer in this conjugate, unlike several other lipidated peptides."
+      },
+      {
+        "position": "2 and 7",
+        "description": "Intramolecular disulfide bridge between Cys2 and Cys7, the single ring in the molecule. The CAS-style name records it as a cyclic (3->8) disulfide, which counts the acyl group as the first unit; the registry's residue numbering gives 2 and 7."
+      },
+      {
+        "position": "37",
+        "description": "C-terminal prolinamide. Both the proline at position 37, where human amylin and pramlintide carry a tyrosine, and the amidation are deliberate: the structural work attributes a measurable change in the receptor interface to the small side chain at this position."
+      },
+      {
+        "position": "14 and 17",
+        "description": "Glu14 and Arg17 in place of the asparagine and valine of pramlintide. These are substitutions rather than chemical modifications, listed here because they are the pair the structural papers identify as forming an intramolecular salt bridge across one face of the N-terminal helix."
+      }
+    ]
+  },
+  "cartalax": {
+    "name": "Cartalax",
+    "sequence": "Ala-Glu-Asp",
+    "residueCount": 3,
+    "notation": "Three-letter sequence, positions 1 to 3, all L-residues, written N-terminus first. One-letter code AED. Both acidic residues are joined through their alpha-carboxyl groups, which the registry systematic name records as L-alanyl-L-glutamyl-L-aspartic acid; the gamma-carboxyl of Glu2 and the beta-carboxyl of Asp3 are free side chains and the C-terminal carboxylate of Asp3 is the chain terminus. The N-terminal amine is free. The patent writes the same molecule as H-Ala-Glu-Asp-OH.",
+    "modifications": []
+  },
+  "cjc-1295-dac": {
+    "name": "CJC-1295 with DAC",
+    "sequence": "Tyr-D-Ala-Asp-Ala-Ile-Phe-Thr-Gln-Ser-Tyr-Arg-Lys-Val-Leu-Ala-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Leu-Ser-Arg-Lys(Nepsilon-3-maleimidopropionyl)-NH2",
+    "residueCount": 30,
+    "notation": "Three-letter sequence, positions 1 to 30. In one-letter code with a lower-case letter for the D-residue the chain reads YaDAIFTQSYRKVLAQLSARKLLQDILSRK, and the C-terminus is a lysine amide rather than a free carboxylate. Residue 2 is D-alanine; every other stereocentre is L. The side-chain amine of lysine 30 is acylated by 3-maleimidopropionic acid. There is no cysteine, no methionine, no disulfide, no cyclisation, no glycosylation and no metal.",
+    "modifications": [
+      {
+        "position": "2",
+        "description": "D-alanine in place of the L-alanine of the natural sequence. Dipeptidyl peptidase IV cleaves the parent hormone and its 1-29 fragment between residues 2 and 3 in a single step, and a D-residue at position 1 or 2 prevents that hydrolysis; purified placental enzyme does not cleave peptides with the D-configuration at those positions. An alanine and D-amino acid scan of the whole 1-29 sequence measured by radioligand binding to rat adenopituitary membranes found that the D-substitution at position 2 did not change binding affinity, so this change blocks a protease without being read as a change at the receptor."
+      },
+      {
+        "position": "8",
+        "description": "Glutamine in place of asparagine. In aqueous solution the native asparagine at 8 rearranges through a cyclic aminosuccinimide to aspartate and isoaspartate, which lowers activity; a set of GRF analogues carrying threonine, serine or glutamine at this position isomerised more slowly. Glutamine does not occur at position 8 in any natural growth hormone-releasing hormone."
+      },
+      {
+        "position": "15",
+        "description": "Alanine in place of glycine, a change reported to raise receptor binding affinity and used in that analogue series for exactly that reason."
+      },
+      {
+        "position": "27",
+        "description": "Leucine in place of methionine, which removes the only oxidation-labile residue in the scaffold: the parent hormone loses activity as methionine 27 oxidises to the sulfoxide. The substituted molecule contains no sulfur at all."
+      },
+      {
+        "position": "30",
+        "description": "An added lysine, C-terminally amidated, whose side-chain nitrogen carries a 3-(2,5-dioxo-2,5-dihydro-1H-pyrrol-1-yl)propanoyl group: a maleimide on a two-carbon tether. This is the drug affinity complex, or DAC. A maleimide adds across a free thiol, so the arm forms a thioether to the one unpaired cysteine of a plasma protein; in human albumin that is cysteine 34, the single free thiol among 35 cysteines, the other 34 being paired in 17 disulfides. Mass spectrometry of a tryptic digest of the albumin conjugate located the arm on the albumin peptide containing that cysteine, as an added 314.16 Da: the amidated lysine with its arm, the succinimide ring having taken up water after the addition. The closed, unreacted group is 296.15 Da, and the difference between the two figures is that water."
+      }
+    ]
+  },
+  "cjc-1295-no-dac": {
+    "name": "CJC-1295 without DAC",
+    "sequence": "Tyr-D-Ala-Asp-Ala-Ile-Phe-Thr-Gln-Ser-Tyr-Arg-Lys-Val-Leu-Ala-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Leu-Ser-Arg-NH2",
+    "residueCount": 29,
+    "notation": "Three-letter sequence, positions 1 to 29, numbered as in the mature 44-residue hormone. In one-letter code with a lower-case letter for the D-residue the chain reads YaDAIFTQSYRKVLAQLSARKLLQDILSR, and the C-terminus is an argininamide rather than a free carboxylate. Residue 2 is D-alanine; every other stereocentre is L. There is no cysteine, no methionine, no sulfur of any kind, no disulfide, no cyclisation, no lipid chain, no polyethylene glycol, no glycosylation and no metal.",
+    "modifications": [
+      {
+        "position": "2",
+        "description": "D-alanine in place of the L-alanine of the natural sequence. Dipeptidyl peptidase IV cleaves the parent hormone and its 1-29 amide between residues 2 and 3 in one step rather than by successive aminopeptidase cuts: an aminopeptidase inhibitor did not affect the reaction and a competitive inhibitor of the peptidase blocked it, and a D-amino acid at position 1 or 2 prevented the hydrolysis. Assays on purified human placental enzyme put it more exactly: peptides with the D-configuration at P2, P1 or P1' were not cleaved at all, and the initial cleavage rate of the 1-29 amide was about the same as that of the full-length hormone, so shortening the chain does not itself protect it. The substitution is not read as a change at the receptor: in a radioligand binding assay on rat adenopituitary membranes designed so that proteolytic resistance could not be mistaken for affinity, a D-residue at position 2 had no influence on binding affinity. A single D-alanine at this position on the otherwise unmodified 1-29 amide was reported in 1984 to be about fifty times more potent than the parent amide at eliciting growth hormone secretion in the rat, more than the position-1 and position-3 D-analogues at ten and seven fold; read beside the unchanged binding affinity, that is the clearest demonstration that the substitution buys survival in plasma rather than receptor engagement."
+      },
+      {
+        "position": "8",
+        "description": "Glutamine in place of asparagine. In aqueous solution the native asparagine at 8 rearranges through a cyclic aminosuccinimide to aspartate and isoaspartate, and a set of analogues carrying threonine, serine or glutamine at this position all isomerised more slowly than the native residue. Glutamine does not occur at position 8 in any natural growth hormone-releasing hormone. An independent alanine scan of the 1-29 amide found [Ala8] two to six times more potent than its standard in an in vitro growth hormone release assay, so the position tolerates substitution."
+      },
+      {
+        "position": "15",
+        "description": "Alanine in place of glycine, included in the original analogue series because that change had already been reported to raise receptor binding affinity. The alanine scan put [Ala15] among the most potent single substitutions, two to six times the standard, and the same study found that replacing the residue with the helix promoter alpha-aminoisobutyric acid instead lost tenfold against alanine, so the increase is specific to alanine rather than to helix stabilisation. The cryo-EM contact map lists glycine 15 of the ligand among residues the authors call variable and receptive to substitution by alanine, glycine, cysteine or serine."
+      },
+      {
+        "position": "27",
+        "description": "Leucine in place of methionine, which removes the only oxidation-labile residue in the scaffold: the parent hormone loses activity as methionine 27 oxidises to the sulfoxide. The substituted molecule contains no sulfur at all. This is the least well characterised of the four at the receptor. The alanine scan found [Ala27] a weak agonist at 15 to 40 percent of its standard, which bounds rather than answers the question, since alanine is not leucine; and the structure cannot help, because position 27 lies in the segment whose partners are the receptor's extracellular domain, which that map did not resolve."
+      },
+      {
+        "position": "29, C-terminus",
+        "description": "The chain ends as an argininamide, a primary carboxamide on the arginine rather than a free acid. This matters for comparison: the sibling analogue series that most of the substitution data comes from consists of 1-32 free acids, so the amide is one of the differences between those molecules and this one."
+      }
+    ]
+  },
+  "cortagen": {
+    "name": "Cortagen",
+    "sequence": "Ala-Glu-Asp-Pro",
+    "residueCount": 4,
+    "notation": "Three-letter sequence, positions 1 to 4, all L-residues, written N-terminus first. One-letter code AEDP. The chain is joined head to tail through alpha-carboxyl groups: the gamma-carboxyl of Glu2 and the beta-carboxyl of Asp3 are free side chains, the N-terminal amine of Ala1 is free, and the chain ends at the carboxylate of Pro4. Because proline's nitrogen is part of its pyrrolidine ring, the fourth peptide bond is a tertiary amide. The patent writes the same molecule as H-Ala-Glu-Asp-Pro-OH.",
+    "modifications": []
+  },
+  "dihexa": {
+    "name": "Dihexa",
+    "sequence": "Hexanoyl-Tyr-Ile-NH-(CH2)5-CONH2",
+    "residueCount": null,
+    "notation": "Linear notation for a capped dipeptide amide rather than a peptide sequence: a hexanoyl group on the tyrosine alpha-amine, an L-Tyr-L-Ile amide bond, and the isoleucine carboxyl amidated to the amine of 6-aminohexanoic acid, whose own carboxyl is a primary amide. Only two of the three building blocks are alpha-amino acids, which is why no one-letter sequence is given.",
+    "modifications": [
+      {
+        "position": "Tyrosine alpha-amino group (N-terminus)",
+        "description": "A hexanoyl cap, that is a six-carbon straight-chain acyl group forming an amide. It removes the free alpha-amine, which is both the group an aminopeptidase would act on and the group the predecessor peptides present to the insulin-regulated aminopeptidase binding site. The stated design intent was to raise hydrophobicity and reduce hydrogen bonding; the acyl chain is also what separates this molecule from the antagonist 6-AH, which keeps an amino acid in that position."
+      },
+      {
+        "position": "Isoleucine carboxyl (C-terminus)",
+        "description": "Extended as an amide to 6-aminohexanoic acid, itself terminating in a primary carboxamide. The result is a flexible five-carbon spacer ending in a neutral amide rather than a free acid, so the molecule carries no formal charge at either end. The same tail appears on the antagonist family, so the tail alone does not determine the reported direction of activity."
+      },
+      {
+        "position": "Tyrosine phenol (4-hydroxyphenyl)",
+        "description": "Left free in this molecule, and the single point of attachment that produces the clinical prodrug: phosphorylating this hydroxyl gives fosgonimeton. The phenol is therefore the most chemically consequential handle on the structure."
+      }
+    ]
+  },
+  "dsip": {
+    "name": "DSIP (delta sleep-inducing peptide)",
+    "sequence": "Trp-Ala-Gly-Gly-Asp-Ala-Ser-Gly-Glu",
+    "residueCount": 9,
+    "notation": "Three-letter sequence, positions 1 to 9, written N-terminus first; one-letter code WAGGDASGE. All chiral residues are L. Both acidic residues are joined into the backbone through their alpha-carboxyl groups, which the registry's systematic name records as L-tryptophyl-L-alanylglycylglycyl-L-alpha-aspartyl-L-alanyl-L-serylglycyl-L-glutamic acid; the beta-carboxyl of Asp5 and the gamma-carboxyl of Glu9 are free side chains. The N-terminal tryptophan amine and the C-terminal glutamate alpha-carboxylate are both free.",
+    "modifications": []
+  },
+  "eloralintide": {
+    "name": "Eloralintide",
+    "sequence": "gGlu-Cys-Asn-Thr-Ala-Thr-Cys-Ala-Thr-Gly-Orn-Leu-Ala-Glu-(alphaMe)Phe-Leu-Val-Arg-Ser-Ser-Asn-(NMe)Asn-Phe-Gly-Pro-Lys(acyl)-Leu-Pro-Pro-Thr-Glu-Val-Gly-Ser-Asn-Thr-Tyr-NH2",
+    "residueCount": 37,
+    "notation": "Three-letter sequence, positions 1 to 37, numbered as in the amylin literature so that the two cysteines are 2 and 7 and the C-terminal residue is 37. There is no faithful one-letter form: three positions are residues with no one-letter code, which is why the three-letter string is given instead of an abbreviation that would silently read as the coded amino acid. Cys2 and Cys7 are joined through a single carbon rather than a disulfide, Lys26 carries the side-chain conjugate described under modifications, and position 37 is a tyrosine amide rather than a free carboxylate. The sequence was read residue by residue out of the connectivity in the PubChem record and then checked by recounting the atoms of that assignment, which reproduces the registry formula C201H319N49O65S2 exactly, including all 49 nitrogens; it is independently consistent with the architecture the discovery paper describes in words (37 residues in the main chain, non-coded residues at 11, 15 and 22, a methylene thioacetal in place of the disulfide, a C20 diacid on Lys26 through two gamma-glutamyl units, a C-terminal amide, single enantiomer).",
+    "modifications": [
+      {
+        "position": "1",
+        "description": "The N-terminal residue is a glutamate joined to Cys2 through its side-chain carboxyl rather than its alpha carboxyl, so the free alpha-amino group and alpha carboxyl of that glutamate sit off the main chain. Human amylin carries a lysine here. This is the one feature of the molecule that the discovery paper does not describe in words; it is read from the registry connectivity, where the acyl unit on the Cys2 nitrogen is recorded as 4-amino-4-carboxybutanoyl, the gamma-linked form."
+      },
+      {
+        "position": "2 and 7",
+        "description": "Methylene thioacetal bridge. The native Cys2 to Cys7 disulfide is replaced by a single methylene inserted between the two sulfurs, giving S-CH2-S in place of S-S. This is the molecule's only ring in the main chain. The discovery paper states the substitution enhances chemical stability and publishes no measurement of it."
+      },
+      {
+        "position": "11",
+        "description": "Ornithine, a non-coded residue, in place of the arginine of human amylin. Ornithine has a side chain one carbon shorter than lysine and ending in a primary amine rather than the guanidinium of arginine, so the position keeps a positive charge on a shorter arm and loses the guanidinium's hydrogen-bonding geometry."
+      },
+      {
+        "position": "15",
+        "description": "Alpha-methyl-phenylalanine, a non-coded residue, in place of phenylalanine. The extra methyl on the alpha carbon makes the position quaternary, which restricts the backbone torsions available to it and is a standard way to bias a segment toward a helical conformation and to resist proteolysis."
+      },
+      {
+        "position": "22",
+        "description": "N-methyl-asparagine, a non-coded residue, in place of asparagine. Methylating a backbone nitrogen removes the amide hydrogen, so that position can no longer donate a backbone hydrogen bond. Backbone N-methylation in this family of sequences is the established way to interrupt the beta-sheet hydrogen bonding that amyloid assembly depends on, which is a plausible reading of why it sits here, in the midregion."
+      },
+      {
+        "position": "26",
+        "description": "Side-chain acylation of lysine 26, where human amylin carries an isoleucine. The lysine nitrogen bears two gamma-linked glutamate units in series, and the second of those is acylated by eicosanedioic acid, a saturated linear 20-carbon alpha,omega-dicarboxylic acid, leaving the distal carboxylate free. The discovery paper attributes albumin binding and therefore the extended circulating half-life to this group. There is no polyethylene glycol spacer. Acylation at a mid-chain position rather than at the N terminus is the structural difference from cagrilintide and the other analogues whose half-life extension is N-terminal."
+      },
+      {
+        "position": "37",
+        "description": "C-terminal tyrosine amide. The amide is not a modification relative to the hormone: human amylin is also amidated at Tyr37. It is recorded here because the amide accounts for one of the formula's nitrogens and because several analogues in this family, cagrilintide among them, replace the tyrosine at this position."
+      }
+    ]
+  },
+  "epithalon": {
+    "name": "Epithalon (epitalon)",
+    "sequence": "Ala-Glu-Asp-Gly",
+    "residueCount": 4,
+    "notation": "Three-letter sequence, positions 1 to 4, all L-residues, written N-terminus first. One-letter code AEDG. Both acidic residues are joined through their alpha-carboxyl groups, which the registry names record as L-alanyl-L-alpha-glutamyl-L-alpha-aspartyl-glycine; the gamma-carboxyl of Glu2 and the beta-carboxyl of Asp3 are free side chains, not part of the backbone. The N-terminal amine and the C-terminal glycine carboxylate are both free.",
+    "modifications": []
+  },
+  "foxo4-dri": {
+    "name": "FOXO4-DRI",
+    "sequence": "ltlrkepaseiaqsileaysqngwanrrsggkrppprrrqrrkkrg",
+    "residueCount": 46,
+    "notation": "One-letter code, 46 positions, written as the originating paper writes it: lower case denotes a D-residue, and the paper states the peptide is this sequence in D-isoform with free H- and -OH termini. The four glycines (positions 23, 30, 31 and 46) have no chirality to assign. Reading the string in reverse recovers the parent L-order construct, GRKKRRQRRRPPP followed by RKGGSRRNAWGNQSYAELISQAIESAPEKRLTL.",
+    "modifications": [
+      {
+        "position": "1 to 46",
+        "description": "Retro-inverso design: every chiral residue is the D enantiomer and the residue order is reversed relative to the parent sequence. There is no chemical adduct here, so this is a stereochemical and topological modification rather than a group added to a chain."
+      },
+      {
+        "position": "1 to 33",
+        "description": "Reversed segment of human FOXO4. Positions 1 to 33 read in reverse are RKGGSRRNAWGNQSYAELISQAIESAPEKRLTL, which matches FOXO4 residues 92 to 124 exactly against the curated sequence: eight residues upstream of the forkhead DNA-binding region, which is annotated at 100 to 188, plus the first 25 residues of it."
+      },
+      {
+        "position": "34 to 46",
+        "description": "Reversed cationic import segment. Positions 34 to 46 read in reverse are GRKKRRQRRRPPP, the basic domain of HIV-1 TAT, which the originating paper added to carry the peptide into cells. The 2025 structural work found residues of this block contribute to p53 binding as well, so it is not an inert tag."
+      }
+    ]
+  },
+  "ghk-cu": {
+    "name": "GHK-Cu",
+    "sequence": "GHK",
+    "residueCount": 3,
+    "notation": "One-letter code, H-Gly-His-Lys-OH (free N-terminal amine, free C-terminal carboxylate), all residues L where chiral, with one Cu(II) ion bound",
+    "modifications": [
+      {
+        "position": "Gly1 alpha-amine, Gly1-His2 amide nitrogen, His2 imidazole nitrogen",
+        "description": "Equatorial Cu(II) coordination: the N-terminal amine, the deprotonated amide nitrogen of the Gly-His peptide bond and a histidine imidazole nitrogen form two fused chelate rings around one Cu(II) ion. The fourth equatorial position is held by a labile ligand (water in solution, a carboxylate oxygen of a neighbouring molecule in the crystal, or an external ligand such as imidazole or histidine)."
+      },
+      {
+        "position": "Lys3 side-chain amine",
+        "description": "Protonated and not bound to copper at physiological pH; it takes part in coordination only at alkaline pH."
+      }
+    ]
+  },
+  "ghrp-2": {
+    "name": "GHRP-2 (pralmorelin)",
+    "sequence": "D-Ala-D-2-Nal-Ala-Trp-D-Phe-Lys-NH2",
+    "residueCount": 6,
+    "notation": "Three-letter sequence, positions 1 to 6, N-terminus to C-terminus. D-2-Nal at position 2 is 3-(2-naphthyl)-D-alanine, a non-proteinogenic residue. Positions 1, 2 and 5 are D-configured and positions 3, 4 and 6 are L-configured. The C-terminus is a lysinamide rather than a free carboxylate. Written out in full by the systematic name on the chemical records as D-alanyl-3-(2-naphthalenyl)-D-alanyl-L-alanyl-L-tryptophyl-D-phenylalanyl-L-lysinamide.",
+    "modifications": [
+      {
+        "position": "2",
+        "description": "3-(2-naphthyl)-D-alanine in place of a proteinogenic residue: an alanine whose side chain is a naphthalen-2-ylmethyl group, so the residue carries a fused bicyclic aromatic system larger than any natural side chain."
+      },
+      {
+        "position": "1, 2 and 5",
+        "description": "D-configuration at the alpha carbon. Three of the six residues are inverted relative to protein stereochemistry, which the isomeric SMILES on the chemical record assigns residue by residue."
+      },
+      {
+        "position": "6",
+        "description": "C-terminal primary amide (lysinamide) rather than a free acid. This is the group an amidase removes, and amidase action is one of the three enzymatic routes that account for the urinary metabolites of this peptide family."
+      }
+    ]
+  },
+  "ghrp-6": {
+    "name": "GHRP-6",
+    "sequence": "His-D-Trp-Ala-Trp-D-Phe-Lys-NH2",
+    "residueCount": 6,
+    "notation": "Three-letter sequence, positions 1 to 6, with a C-terminal primary amide rather than a free carboxylate. Positions 2 and 5 are D-configured and positions 1, 3, 4 and 6 are L. There is no faithful one-letter form, because the one-letter alphabet carries no configuration and two of the six residues are D. Written out: L-histidyl-D-tryptophyl-L-alanyl-L-tryptophyl-D-phenylalanyl-L-lysinamide.",
+    "modifications": [
+      {
+        "position": "2",
+        "description": "D-tryptophan. One of the two inverted positions, and the one the original design programme arrived at first: [D-Trp2]methionine enkephalin amide was the weakly active starting point from which the series was built. In the receptor-bound model this residue packs edge to face against the tryptophan at position 4 and holds an intramolecular network with the lysine side chain. Backbone substitution here drops secretagogue-receptor affinity by at least a hundredfold while the second receptor can tolerate it."
+      },
+      {
+        "position": "5",
+        "description": "D-phenylalanine. The second inverted position. In the complex it occupies the cavity that the octanoyl group of ghrelin fills, contacting isoleucine 178, leucine 181 and phenylalanine 286, and forming a cation-pi interaction with arginine 283 that ghrelin does not make. Conformational restriction at this position is one of the two places that shifts selectivity between the two receptors."
+      },
+      {
+        "position": "6",
+        "description": "C-terminal lysinamide: the terminal carboxylate is replaced by a primary amide and the lysine side-chain amine stays free. In the complex that side chain points toward transmembrane helix 2 and forms a salt bridge with aspartate 99. The structural paper notes prior work finding that metabolites lacking this residue had lost receptor binding, which makes the position load-bearing rather than decorative."
+      }
+    ]
+  },
+  "glp-1-sm": {
+    "name": "GLP-1 SM",
+    "sequence": "His-Aib-Glu-Gly-Thr-Phe-Thr-Ser-Asp-Val-Ser-Ser-Tyr-Leu-Glu-Gly-Gln-Ala-Ala-Lys(acyl)-Glu-Phe-Ile-Ala-Trp-Leu-Val-Arg-Gly-Arg-Gly",
+    "residueCount": 31,
+    "notation": "Three-letter sequence, positions 1 to 31, free C-terminal carboxylate. Aib is 2-aminoisobutyric acid (alpha-methylalanine) at position 2; Lys20 carries the side-chain conjugate described under modifications. In the one-letter code used by the registry records and by the deposited peptide entities of 7KI0 and 4ZGM the chain reads HAEGTFTSDVSSYLEGQAAKEFIAWLVRGRG, in which the A at position 2 stands for Aib. The literature commonly uses GLP-1 numbering instead, which starts this same chain at 7: in that convention the modified residues are Aib8, Lys26 and Arg34. The deposited files use both at once, an entity sequence index running 1 to 31 and author residue ids running 7 to 37. Both numbering schemes appear in the sources and they describe one molecule.",
+    "modifications": [
+      {
+        "position": "2 (GLP-1 numbering 8)",
+        "description": "2-aminoisobutyric acid (Aib, alpha-methylalanine) in place of alanine. The second methyl group on the alpha carbon makes the residue achiral and constrains the local backbone. Modelled in the deposited cryo-EM entry as chemical component AIB."
+      },
+      {
+        "position": "20 (GLP-1 numbering 26)",
+        "description": "The lysine side-chain nitrogen is acylated by two consecutive 2-[2-(2-aminoethoxy)ethoxy]acetyl (AEEA, also written OEG) spacers, then a gamma-linked L-glutamate, then octadecanedioic acid, an eighteen-carbon chain with a carboxylic acid at each end. The distal carboxylate is left free. The registry systematic name gives the whole arm as N6-[N-(17-carboxy-1-oxoheptadecyl)-L-gamma-glutamyl-AEEA-AEEA]."
+      },
+      {
+        "position": "28 (GLP-1 numbering 34)",
+        "description": "Arginine in place of the lysine present in human GLP-1. The point of the substitution is that it leaves one lysine in the chain, so acylation is site specific."
+      }
+    ]
+  },
+  "glp-2-tz": {
+    "name": "GLP-2 TZ",
+    "sequence": "Tyr-Aib-Glu-Gly-Thr-Phe-Thr-Ser-Asp-Tyr-Ser-Ile-Aib-Leu-Asp-Lys-Ile-Ala-Gln-Lys(acyl)-Ala-Phe-Val-Gln-Trp-Leu-Ile-Ala-Gly-Gly-Pro-Ser-Ser-Gly-Ala-Pro-Pro-Pro-Ser-NH2",
+    "residueCount": 39,
+    "notation": "Three-letter sequence, positions 1 to 39. Aib is 2-aminoisobutyric acid (alpha-methylalanine) at positions 2 and 13; Lys20 carries the side-chain conjugate described under modifications; the C-terminus is a serine amide. The unmodified backbone in one-letter code is YAEGTFTSDYSIGLDKIAQKAFVQWLIAGGPSSGAPPPS, in which the A at position 2 and the G at position 13 stand for the two Aib residues. The deposited structures spell the same chain as Y(AIB)EGTFTSDYSI(AIB)LDKIAQKAFVQWLIAGGPSSGAPPPS.",
+    "modifications": [
+      {
+        "position": "2 and 13",
+        "description": "2-aminoisobutyric acid (Aib, alpha-methylalanine), an achiral alpha,alpha-dialkyl residue standing in for a proteinogenic amino acid. The FDA substance record lists both as amino-acid substitutions, on an alanine at position 2 and a glycine at position 13; both are modelled in the deposited structures as chemical component AIB."
+      },
+      {
+        "position": "20",
+        "description": "The lysine side-chain nitrogen carries N6-(N-(hydrogen icosanedioyl)-gamma-glutamyl-bis(2-(2-(2-aminoethoxy)ethoxy)acetyl)): eicosanedioic acid, a twenty-carbon alpha,omega-dicarboxylic acid, joined through a gamma-linked L-glutamate and TWO 8-amino-3,6-dioxaoctanoic acid (AEEA) spacers. The distal carboxylate of the diacid stays free."
+      },
+      {
+        "position": "39",
+        "description": "C-terminal serine amide (serinamide) rather than a free carboxylate."
+      }
+    ]
+  },
+  "glp-3-rt": {
+    "name": "GLP-3 RT",
+    "sequence": "Tyr-Aib-Gln-Gly-Thr-Phe-Thr-Ser-Asp-Tyr-Ser-Ile-(alpha-Me-Leu)-Leu-Asp-Lys-Lys(acyl)-Ala-Gln-Aib-Ala-Phe-Ile-Glu-Tyr-Leu-Leu-Glu-Gly-Gly-Pro-Ser-Ser-Gly-Ala-Pro-Pro-Pro-Ser-NH2",
+    "residueCount": 39,
+    "notation": "Three-letter sequence, positions 1 to 39. Aib is 2-aminoisobutyric acid (alpha-methylalanine) at positions 2 and 20; alpha-Me-Leu is 2-methyl-L-leucine at position 13; Lys17 carries the side-chain conjugate described under modifications; the C-terminus is a serine amide. The unmodified backbone in one-letter code is YAQGTFTSDYSILLDKKAQAAFIEYLLEGGPSSGAPPPS, in which the A at 2 and 20 and the L at 13 stand for the non-proteinogenic residues.",
+    "modifications": [
+      {
+        "position": "2 and 20",
+        "description": "2-aminoisobutyric acid (Aib, alpha-methylalanine), an achiral alpha,alpha-dialkyl residue in place of a proteinogenic amino acid. Modelled in the deposited structures as chemical component AIB."
+      },
+      {
+        "position": "13",
+        "description": "2-methyl-L-leucine (alpha-methyl leucine), modelled in the deposited structures as chemical component 2ML."
+      },
+      {
+        "position": "17",
+        "description": "The lysine side-chain nitrogen carries N6-[N-(19-carboxy-1-oxononadecyl)-L-gamma-glutamyl-2-[2-(2-aminoethoxy)ethoxy]acetyl]: eicosanedioic acid (a C20 alpha,omega-dicarboxylic acid) joined through a gamma-linked L-glutamate and a single 2-[2-(2-aminoethoxy)ethoxy]acetyl (AEEA) spacer. The free distal carboxylate of the diacid is retained."
+      },
+      {
+        "position": "39",
+        "description": "C-terminal serine amide (serinamide) rather than a free carboxylate."
+      }
+    ]
+  },
+  "glutathione": {
+    "name": "Glutathione (reduced, GSH)",
+    "sequence": "gamma-Glu-Cys-Gly",
+    "residueCount": 3,
+    "notation": "Three-letter code. The first residue is linked through its side-chain (gamma) carboxyl to the amino group of cysteine; cysteine to glycine is an ordinary alpha peptide bond.",
+    "modifications": [
+      {
+        "position": "Glu1 side chain to Cys2 amino group",
+        "description": "An isopeptide (gamma-glutamyl) bond in place of a backbone peptide bond. The glutamate therefore keeps a free alpha-amino group and a free alpha-carboxyl group, which in the deposited mPGES-1 structure are both held by enzyme side chains. The gamma-glutamyl bond is the one hydrolysed or transferred by gamma-glutamyl transpeptidase 1."
+      },
+      {
+        "position": "Cys2 side chain (thiol, -SH)",
+        "description": "The reactive group. In free solution its pKa is roughly 8.7 to 9, so at neutral pH most of it is protonated. Oxidation joins two thiols into the disulfide GSSG; reaction with protein cysteines gives mixed disulfides (S-glutathionylation); and in some glutaredoxins the sulfur coordinates iron in a [2Fe-2S] cluster."
+      },
+      {
+        "position": "Gly3 C-terminus",
+        "description": "A free carboxyl group. With the glutamate alpha-carboxyl it gives the molecule two carboxylates and one amine at neutral pH, so the net charge there is close to minus one; the computed record is the neutral, fully protonated form."
+      }
+    ]
+  },
+  "gonadorelin": {
+    "name": "Gonadorelin",
+    "sequence": "pGlu-His-Trp-Ser-Tyr-Gly-Leu-Arg-Pro-Gly-NH2",
+    "residueCount": 10,
+    "notation": "Three-letter sequence, positions 1 to 10. pGlu is 5-oxo-L-proline (pyroglutamate), the cyclised form of glutamate, at position 1; the C-terminal glycine is an amide rather than a free acid. The FDA substance record stores the chain as the ten-letter string QHWSYGLRPG with two recorded modifications, pidolic acid substituting residue 1 and glycinamide substituting residue 10, which is the same molecule written a different way. Deposited structures write it as (PCA)HWSYGLRPG(NH2), counting the amide as an eleventh component.",
+    "modifications": [
+      {
+        "position": "1",
+        "description": "N-terminal pyroglutamate: the glutamate side chain is cyclised onto its own alpha-amino group as a 5-oxoproline ring, so there is no free N-terminal amine. Chemical component PCA in the deposited structures, and recorded as pidolic acid on the FDA substance record."
+      },
+      {
+        "position": "10",
+        "description": "C-terminal glycinamide in place of a free carboxylate. In the precursor the decapeptide is followed by Gly-Lys-Arg, the arrangement expected for proteolytic release and amidation of the C terminus, so the amide is the product of precursor processing rather than a synthetic cap added later."
+      }
+    ]
+  },
+  "hcg": {
+    "name": "Human chorionic gonadotropin (hCG)",
+    "sequence": "Alpha chain (92 residues): APDVQDCPECTLQENPFFSQPGAPILQCMGCCFSRAYPTPLRSKKTMLVQKNVTSESTCCVAKSYNRVTVMGGFKVENHTACHCSTCYYHKS | Beta chain (145 residues): SKEPLRPRCRPINATLAVEKEGCPVCITVNTTICAGYCPTMTRVLQGVLPALPQVVCNYRDVRFESIRLPGCPRGVNPVVSYAVALSCQCALCRRSTTDCGGPKDHPLTCDDPRFQDSSSSKAPPPSLPSPSRLPGPSDTPILPQ",
+    "residueCount": 237,
+    "notation": "Two separate chains in one-letter code, not one continuous sequence: they associate non-covalently and there is no peptide bond between them. Numbering here is mature-chain numbering, which is what the structural and glycosylation literature uses. UniProt feature positions are given in PRECURSOR numbering instead, so its alpha positions run 24 higher than these and its beta positions 20 higher; a glycosylation site quoted without saying which numbering is meant is ambiguous by that offset. The alpha chain is residues 25 to 116 of precursor P01215 and the beta chain residues 21 to 165 of precursor P0DN86.",
+    "modifications": [
+      {
+        "position": "alpha chain, 5 disulfide bonds",
+        "description": "Cys7-Cys31, Cys10-Cys60, Cys28-Cys82, Cys32-Cys84 and Cys59-Cys87 in mature numbering (UniProt lists them as 31-55, 34-84, 52-106, 56-108 and 83-111 in precursor numbering). Three of them form the cystine knot at the core of the chain."
+      },
+      {
+        "position": "beta chain, 6 disulfide bonds",
+        "description": "Cys9-Cys57, Cys23-Cys72, Cys26-Cys110, Cys34-Cys88, Cys38-Cys90 and Cys93-Cys100 in mature numbering (UniProt precursor numbering: 29-77, 43-92, 46-130, 54-108, 58-110, 113-120). Three form the beta chain's own cystine knot. Cys26-Cys110 is the latch of the seat belt described below. The FDA substance record counts 11 disulfide links in the heterodimer, matching 5 plus 6."
+      },
+      {
+        "position": "alpha Asn52 and alpha Asn78",
+        "description": "Two N-linked glycosylation sites on the alpha chain (precursor Asn76 and Asn102). On the free alpha chain the two sites are processed independently and differently: glycans at Asn52 were almost entirely concanavalin-A-unbound and trisialylated, while most Asn78 glycans were concanavalin-A-bound and disialylated."
+      },
+      {
+        "position": "beta Asn13 and beta Asn30",
+        "description": "Two N-linked glycosylation sites on the beta chain (precursor Asn33 and Asn50). Hydrogen-deuterium exchange work found that the glycans at these two sites changed the affinity of one anti-hCG monoclonal antibody whose epitope maps to beta residues 65 to 83, while a second antibody was unaffected."
+      },
+      {
+        "position": "beta Ser121, Ser127, Ser132 and Ser138",
+        "description": "Four O-linked glycosylation sites, all within the beta chain's C-terminal extension (precursor Ser141, 147, 152 and 158)."
+      },
+      {
+        "position": "beta chain, residues 93 to 145",
+        "description": "The beta C-terminal peptide, a 31-residue-plus proline-rich and serine-rich extension that the other three human glycoprotein hormone beta chains do not have, carrying all four O-glycans. It is not held by any disulfide to the rest of the molecule and is released by proteolysis at beta Leu92."
+      }
+    ]
+  },
+  "hexarelin": {
+    "name": "Hexarelin",
+    "sequence": "His-D-2-methyl-Trp-Ala-Trp-D-Phe-Lys-NH2",
+    "residueCount": 6,
+    "notation": "Three-letter sequence, positions 1 to 6. Position 2 is 2-methyl-D-tryptophan, in which the methyl group sits on the C2 carbon of the indole ring rather than on the backbone; position 5 is D-phenylalanine. The C-terminal lysine is an amide (lysinamide), not a free acid. There is no plain one-letter string for this molecule, because two of its six residues are D and one of those carries a ring substituent.",
+    "modifications": [
+      {
+        "position": "2",
+        "description": "2-methyl-D-tryptophan in place of the D-tryptophan of GHRP-6. The discovery report states the substitution was made because the methylated indole is chemically more stable, and the same position is the one the azapeptide structure-activity work found important for CD36 binding."
+      },
+      {
+        "position": "5",
+        "description": "D-phenylalanine. Part of the Ala-Trp-D-Phe-Lys core shared across this peptide family."
+      },
+      {
+        "position": "6",
+        "description": "C-terminal lysine amide rather than a free carboxylate. This is the molecule's chemically labile point: incubation with intestinal contents or with human, porcine or bovine trypsin produced hexarelin deamidated at the lysine residue."
+      }
+    ]
+  },
+  "hgh-fragment-176-191": {
+    "name": "hGH Fragment 176-191",
+    "sequence": "Phe-Leu-Arg-Ile-Val-Gln-Cys-Arg-Ser-Val-Glu-Gly-Ser-Cys-Gly-Phe",
+    "residueCount": 16,
+    "notation": "Three-letter sequence, read amino terminus to carboxyl terminus; one-letter code FLRIVQCRSVEGSCGF. Positions 1 to 16 of the peptide correspond to residues 176 to 191 of the mature 191-residue human growth hormone chain, which is residues 202 to 217 of the UniProt P01241 precursor, since the signal peptide occupies the first 26 precursor positions. Cysteines sit at peptide positions 7 and 14, which are Cys182 and Cys189 in hormone numbering.",
+    "modifications": [
+      {
+        "position": "7 and 14 (Cys182 and Cys189 in mature hormone numbering)",
+        "description": "An intramolecular disulfide bridge between the two cysteine side chains, closing a ring of eight residues. This is the hormone's own second disulfide, carried over into the fragment rather than added to it, and it is annotated on the parent sequence record. The PubChem record for this name is drawn with the bridge formed, and the FDA record for the closely related AOD-9604 states the equivalent linkage as cyclic 7 to 14."
+      },
+      {
+        "position": "1 and 16",
+        "description": "Both termini are unmodified: a free alpha-amino group on Phe1 and a free carboxylate on Phe16. There is no acetylation, no amide cap and no lipid, polyethylene glycol or other conjugate anywhere on the molecule. Phe16 is the natural carboxyl terminus of the hormone, so the fragment ends where the protein does."
+      }
+    ]
+  },
+  "humanin": {
+    "name": "Humanin",
+    "sequence": "Met-Ala-Pro-Arg-Gly-Phe-Ser-Cys-Leu-Leu-Leu-Leu-Thr-Ser-Glu-Ile-Asp-Leu-Pro-Val-Lys-Arg-Arg-Ala",
+    "residueCount": 24,
+    "notation": "Three-letter sequence, positions 1 to 24. In one-letter code MAPRGFSCLLLLTSEIDLPVKRRA. Every residue is a proteinogenic L-amino acid. The form PubChem records, and the form deposited in PDB 1Y32, carries a free N-terminal amine on Met1 and a free C-terminal carboxylate on Ala24. The single cysteine at position 8 is a free thiol in that form: the chain is linear, uncyclised and carries no disulfide.",
+    "modifications": []
+  },
+  "igf-1-lr3": {
+    "name": "IGF-1 LR3",
+    "sequence": "MFPAMPLSSLFVNGPRTLCGAELVDALQFVCGDRGFYFNKPTGYGSSSRRAPQTGIVDECCFRSCDLRRLEMYCAPLKPAKSA",
+    "residueCount": 83,
+    "notation": "One-letter code, all-L residues, read N to C over 83 positions. Positions 1 to 13 (MFPAMPLSSLFVN) are the extension; positions 14 to 83 are the insulin-like growth factor I chain, whose own numbering runs 1 to 70 and is used throughout the literature. Construct position 16 is IGF-I position 3, the arginine substitution. Both the extension and the arginine are read from the deposited entity sequence of PDB 3LRI; the remainder of the chain is the mature human sequence from UniProt P05019 (residues 49 to 118 of the precursor). Free carboxylate at the C terminus, with no amidation and no acylation anywhere.",
+    "modifications": [
+      {
+        "position": "1 to 13",
+        "description": "N-terminal extension MFPAMPLSSLFVN. The discovery report describes it as the first 11 residues of methionyl porcine growth hormone followed by the dipeptide Val-Asn, and three later papers describe it simply as a hydrophobic 13-amino-acid extension. Taking residues 1 to 11 of the methionyl protein, that is the initiator methionine plus FPAMPLSSLF of the mature porcine sequence, reproduces the deposited sequence exactly. The initiator methionine is present and chemically accessible: a labelling study placed a single fluorescein on it."
+      },
+      {
+        "position": "16 (position 3 of the IGF-I chain)",
+        "description": "Arginine in place of the glutamate that occupies position 3 of the human hormone. This is the substitution the name records, and it is the change that lowers binding-protein association."
+      }
+    ]
+  },
+  "ipamorelin": {
+    "name": "Ipamorelin",
+    "sequence": "Aib-His-D-2-Nal-D-Phe-Lys-NH2",
+    "residueCount": 5,
+    "notation": "Three-letter sequence, positions 1 to 5. Aib is 2-aminoisobutyric acid, also written as 2-methylalanine, an achiral residue with two methyl groups on the alpha carbon. D-2-Nal is 3-(2-naphthyl)-D-alanine. Positions 3 and 4 are D-configured and positions 2 and 5 are L. The C-terminus is a lysinamide rather than a free carboxylate. There is no one-letter form of this sequence, because three of the five positions are not proteinogenic residues or not L.",
+    "modifications": [
+      {
+        "position": "1",
+        "description": "The N-terminal residue is 2-aminoisobutyric acid, not alanine. Its alpha carbon carries two methyl groups and no hydrogen, so the residue is achiral and its backbone is conformationally restricted. The free alpha-amino group remains, which is the group a glycine extension would acylate."
+      },
+      {
+        "position": "3",
+        "description": "3-(2-naphthyl)-D-alanine: a D-residue whose side chain is a fused bicyclic aromatic system rather than the single ring of phenylalanine. Both the D configuration and the naphthalene are structural features the later chemistry treated as potency-bearing, since reintroducing a naphthylalanine core into stripped-down analogues raised potency again."
+      },
+      {
+        "position": "4",
+        "description": "D-phenylalanine. The adjacent D-residue pair at 3 and 4 is the feature shared with the shortened ghrelin analogues, where replacing the corresponding two residues with D-isomers was read as shaping the biologically active geometry."
+      },
+      {
+        "position": "5",
+        "description": "C-terminal lysinamide: the terminal carboxylate is replaced by a primary amide, leaving the lysine side-chain amine free. This amide is an enzymatic target, since a study of this peptide class found metabolites formed by amidase action alongside exopeptidase and endopeptidase products."
+      }
+    ]
+  },
+  "kpv": {
+    "name": "KPV",
+    "sequence": "Lys-Pro-Val",
+    "residueCount": 3,
+    "notation": "Three-letter sequence, N-terminus to C-terminus; in one-letter code KPV. The positions 11, 12 and 13 used throughout the literature are positions within alpha-MSH, not within the tripeptide, and the same stretch is positions 11 to 13 of corticotropin, which is why both alpha-MSH (11-13) and ACTH (11-13) appear as names for one molecule. As an isolated peptide it has a free N-terminal amine on lysine and a free C-terminal carboxylate on valine.",
+    "modifications": []
+  },
+  "ll-37": {
+    "name": "LL-37",
+    "sequence": "Leu-Leu-Gly-Asp-Phe-Phe-Arg-Lys-Ser-Lys-Glu-Lys-Ile-Gly-Lys-Glu-Phe-Lys-Arg-Ile-Val-Gln-Arg-Ile-Lys-Asp-Phe-Leu-Arg-Asn-Leu-Val-Pro-Arg-Thr-Glu-Ser",
+    "residueCount": 37,
+    "notation": "Three-letter sequence, positions 1 to 37 in the mature peptide's own numbering. In one-letter code: LLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES. The same stretch is residues 134 to 170 of the precursor P49913, so the literature uses both numbering schemes and a position number is ambiguous unless the scheme is named. All residues are proteinogenic; the N-terminus is a free amine and the C-terminus a free serine carboxylate.",
+    "modifications": []
+  },
+  "mazdutide": {
+    "name": "Mazdutide",
+    "sequence": "His-Aib-Gln-Gly-Thr-Phe-Thr-Ser-Asp-Tyr-Ser-Lys-Tyr-Leu-Asp-Glu-Lys-Lys-Ala-Lys(acyl)-Glu-Phe-Val-Glu-Trp-Leu-Leu-Glu-Gly-Gly-Pro-Ser-Ser-Gly-NH2",
+    "residueCount": 34,
+    "notation": "Three-letter sequence, positions 1 to 34. Aib is 2-aminoisobutyric acid (alpha-methylalanine) at position 2; Lys20 carries the side-chain conjugate described under modifications; the C-terminus is a glycine amide (glycinamide). The registry's one-letter string reads HGQGTFTSDYSKYLDEKKAKEFVEWLLEGGPSSG, in which the G at position 2 is a placeholder for the non-proteinogenic Aib residue; KEGG writes the same position as X.",
+    "modifications": [
+      {
+        "position": "2",
+        "description": "2-aminoisobutyric acid (Aib, alpha-methylalanine), an achiral alpha,alpha-dialkyl residue in place of the serine that occupies this position in human oxyntomodulin."
+      },
+      {
+        "position": "20",
+        "description": "The lysine side-chain (epsilon) nitrogen carries two [2-(2-aminoethoxy)ethoxy]acetyl (AEEA) spacer units joined to a single gamma-linked L-glutamate, which in turn bears eicosanedioic acid, a C20 alpha,omega-dicarboxylic acid. The distal carboxylate of the diacid is free. The registry names the whole group N6-(N-(hydrogen icosanedioyl)-gamma-Glu-bis(iminobis(ethylenoxy)acetyl))-lysine; the patent writes the same arm as ([2-(2-aminoethoxy)ethoxy]acetyl)2-(gamma-Glu)1-CO-(CH2)18-CO2H."
+      },
+      {
+        "position": "34",
+        "description": "C-terminal glycinamide rather than a free carboxylate."
+      }
+    ]
+  },
+  "melanotan-i": {
+    "name": "Melanotan I",
+    "sequence": "Ac-Ser-Tyr-Ser-Nle-Glu-His-D-Phe-Arg-Trp-Gly-Lys-Pro-Val-NH2",
+    "residueCount": 13,
+    "notation": "Three-letter sequence, positions 1 to 13, read N-terminus to C-terminus. Nle at position 4 is L-norleucine (2-aminohexanoic acid); position 7 is D-phenylalanine. The N-terminal serine nitrogen is acetylated and the C-terminal valine is an amide rather than a free acid. In the deposited structures the chain is written SYS(NLE)EH(DPN)RWGKPV between an ACE and an NH2 cap, where NLE is norleucine and DPN is D-phenylalanine.",
+    "modifications": [
+      {
+        "position": "N-terminus (Ser1)",
+        "description": "N-acetyl group on the alpha-amino nitrogen, as in the parent hormone rather than as an added modification. Declared as chemical component ACE in the deposited complexes."
+      },
+      {
+        "position": "4",
+        "description": "L-norleucine (2-aminohexanoic acid) replacing methionine. The side chain keeps a comparable straight-chain shape and loses the sulfur, so there is no oxidisable thioether. Modelled as chemical component NLE."
+      },
+      {
+        "position": "7",
+        "description": "D-phenylalanine replacing L-phenylalanine: the same side chain with the opposite configuration at the alpha carbon. Modelled as chemical component DPN."
+      },
+      {
+        "position": "13 (C-terminus)",
+        "description": "C-terminal valine amide (valinamide) rather than a free carboxylate. Declared as chemical component NH2 in the deposited complexes."
+      }
+    ]
+  },
+  "melanotan-ii": {
+    "name": "Melanotan II",
+    "sequence": "Ac-Nle-cyclo[Asp-His-D-Phe-Arg-Trp-Lys]-NH2",
+    "residueCount": 7,
+    "notation": "Seven residues, written in three-letter code with the acetyl group on the N-terminal norleucine and a carboxamide on the C-terminal lysine. Numbering in the primary literature follows the parent hormone rather than the peptide, so the residues are called Nle4, Asp5, His6, D-Phe7, Arg8, Trp9 and Lys10: a paper discussing 'position 7' means the D-phenylalanine, which is the fourth residue of this molecule. The cycle is a side-chain to side-chain amide between the Asp5 carboxylate and the Lys10 epsilon-amine, which registry records describe as a cyclic (2 to 7) peptide because they number the seven residues from one. The backbone itself is not cyclised: both termini are blocked but chemically distinct from each other.",
+    "modifications": [
+      {
+        "position": "N-terminus (Nle4)",
+        "description": "N-acetyl group on the alpha-amine, so the molecule carries no free N-terminal amine."
+      },
+      {
+        "position": "Nle4",
+        "description": "Norleucine, a non-proteinogenic straight-chain residue, in place of the methionine of alpha-MSH. The substitution removes the oxidation-labile thioether and was introduced in the linear analogue that preceded this one."
+      },
+      {
+        "position": "D-Phe7",
+        "description": "D-phenylalanine in place of L-phenylalanine: the single stereochemical inversion in the molecule, and the reason the IUPAC name carries one R descriptor among six S."
+      },
+      {
+        "position": "Asp5 and Lys10",
+        "description": "Lactam bridge between the Asp5 side-chain carboxylate and the Lys10 side-chain amine, forming a 23-membered ring. Lysine occupies a position held by glycine in the hormone, and the ring size is the result of a deliberate comparison against ornithine, diaminobutyric acid and diaminopropionic acid alternatives."
+      },
+      {
+        "position": "C-terminus (Lys10)",
+        "description": "C-terminal carboxamide rather than a free carboxylate. This is the one atom that distinguishes melanotan II from bremelanotide."
+      }
+    ]
+  },
+  "mots-c": {
+    "name": "MOTS-c",
+    "sequence": "Met-Arg-Trp-Gln-Glu-Met-Gly-Tyr-Ile-Phe-Tyr-Pro-Arg-Lys-Leu-Arg",
+    "residueCount": 16,
+    "notation": "Three-letter sequence, positions 1 to 16. In one-letter code MRWQEMGYIFYPRKLR. Every residue is a proteinogenic L-amino acid; the form PubChem records carries a free N-terminal amine at Met1 and a free C-terminal carboxylate at Arg16. There is no cysteine, so no disulfide, and the chain is linear and uncyclised.",
+    "modifications": []
+  },
+  "oxytocin": {
+    "name": "Oxytocin",
+    "sequence": "CYIQNCPLG-NH2",
+    "residueCount": 9,
+    "notation": "One-letter code, positions 1 to 9, with a disulfide between Cys1 and Cys6 and a C-terminal glycinamide. Three-letter form: Cys-Tyr-Ile-Gln-Asn-Cys-Pro-Leu-Gly-NH2 (cyclic 1-6 disulfide). Residues 1 to 6 form the ring; Pro7-Leu8-Gly9-NH2 is the linear tail.",
+    "modifications": [
+      {
+        "position": "1 and 6",
+        "description": "Intramolecular disulfide between the side chains of Cys1 and Cys6, closing a 20-membered ring (the 1,2-dithia-pentaazacycloicosane of the IUPAC name). Recorded as a disulfide between Cys1 SG and Cys6 SG in PDB 7OFG."
+      },
+      {
+        "position": "9",
+        "description": "C-terminal glycinamide (Gly-NH2) rather than a free carboxylate. In the precursor the hormone is followed by Gly-Lys-Arg, and UniProt annotates Gly28 of the precursor (Gly9 of the hormone) as glycine amide. Modelled in 7OFG, 7RYC and 7QVM as a separate NH2 cap."
+      },
+      {
+        "position": "N-terminus",
+        "description": "Free alpha-amine on Cys1, not acylated. Its presence distinguishes oxytocin from deamino-oxytocin."
+      }
+    ]
+  },
+  "p021": {
+    "name": "P021",
+    "sequence": "Ac-Asp-Gly-Gly-Leu-[3-amino-adamantane-1-carboxamide]",
+    "residueCount": 4,
+    "notation": "Four L-alpha-amino acid residues in three-letter code, acetylated at the Asp amino group, followed by a non-coded capping unit written here in brackets. The source literature writes the whole molecule as Ac-DGGL(A)G-NH2 or, with the parentheses dropped, Ac-DGGLAG-NH2. In both of those strings the letter A denotes the adamantyl group and NOT alanine, and the trailing G is the glycine-like unit that carries it. PubChem's graph for the compound contains no alanine, which settles the reading independently.",
+    "modifications": [
+      {
+        "position": "amino terminus, Asp1",
+        "description": "Acetylated, so the molecule carries no free alpha-amino group at that end."
+      },
+      {
+        "position": "fifth unit, following Leu4",
+        "description": "A 3-amino-adamantane-1-carboxamide is amide-linked to the leucine carbonyl in place of a fifth coded residue. The originating laboratory describes this as an adamantylated glycine added to the carboxy terminus of the tetrapeptide Ac-DGGL-NH2, and states two design purposes for it: raising permeability across the blood-brain barrier, and slowing degradation by exopeptidases, which trim peptides from their ends."
+      },
+      {
+        "position": "carboxy terminus",
+        "description": "A primary carboxamide on the adamantane cage rather than a free carboxylate, so that end bears no negative charge at neutral pH. The only ionisable group left in the molecule is the aspartate side-chain carboxylic acid."
+      }
+    ]
+  },
+  "pe-22-28": {
+    "name": "PE 22-28",
+    "sequence": "GVSWGLR",
+    "residueCount": 7,
+    "notation": "One-letter amino acid code, N-terminus to C-terminus, all residues L",
+    "modifications": []
+  },
+  "pinealon": {
+    "name": "Pinealon",
+    "sequence": "Glu-Asp-Arg",
+    "residueCount": 3,
+    "notation": "Three-letter sequence, positions 1 to 3, all L-residues, written N-terminus first. One-letter code EDR. Both acidic residues are joined through their alpha-carboxyl groups, which the systematic name records as L-alpha-glutamyl-L-alpha-aspartyl-L-arginine; the gamma-carboxyl of Glu1 and the beta-carboxyl of Asp2 are free side chains, and the chain ends in the C-terminal carboxylate of Arg3 with its guanidinium side chain free. The N-terminal amine is free. The patent writes the same molecule as H-Glu-Asp-Arg-OH.",
+    "modifications": []
+  },
+  "pt-141": {
+    "name": "PT-141 (bremelanotide)",
+    "sequence": "Ac-Nle-cyclo[Asp-His-D-Phe-Arg-Trp-Lys]-OH",
+    "residueCount": 7,
+    "notation": "Seven residues in three-letter code, with an acetyl group on the N-terminal norleucine and a free carboxylic acid at the C-terminal lysine. Numbering in this literature follows the parent hormone rather than the peptide, so the residues are called Nle4, Asp5, His6, D-Phe7, Arg8, Trp9 and Lys10: a paper discussing position 7 means the D-phenylalanine, which is the fourth residue of this molecule. The deposited structure numbers the same residues 1 to 7. The ring is a side-chain to side-chain amide between the aspartate carboxylate and the lysine epsilon-amine; the backbone itself is not cyclised, and the two termini are chemically distinct from each other.",
+    "modifications": [
+      {
+        "position": "N-terminus (Nle4)",
+        "description": "N-acetyl group on the alpha-amine, so there is no free N-terminal amine. Forced-degradation work names deacetylation as one of the molecule's degradation routes, so this group is chemically addressable rather than inert."
+      },
+      {
+        "position": "Nle4",
+        "description": "Norleucine, a non-proteinogenic straight-chain residue, in place of the methionine of alpha-MSH. The substitution removes the oxidation-labile thioether and was introduced in the linear analogue that preceded the macrocycle."
+      },
+      {
+        "position": "D-Phe7",
+        "description": "D-phenylalanine in place of L-phenylalanine: the only stereochemical inversion in the molecule. Grafting studies on the His-Phe-Arg-Trp motif report that this inversion raises potency at melanocortin receptors by at least an order of magnitude."
+      },
+      {
+        "position": "Asp5 and Lys10",
+        "description": "Lactam bridge between the aspartate side-chain carboxylate and the lysine side-chain amine, forming a 23-membered ring. Ring size was chosen by comparison against ornithine, diaminobutyric and diaminopropionic alternatives, and 23 members was where potency peaked in the original pigment-cell series."
+      },
+      {
+        "position": "C-terminus (Lys10)",
+        "description": "Free carboxylic acid. This is the single functional-group difference from melanotan II, it is what the formula and the monoisotopic mass record, and it is the reason the two molecules need accurate-mass measurement rather than a label to tell apart."
+      }
+    ]
+  },
+  "selank": {
+    "name": "Selank",
+    "sequence": "TKPRPGP",
+    "residueCount": 7,
+    "notation": "One-letter sequence, positions 1 to 7, N-terminus to C-terminus. In three-letter form: Thr-Lys-Pro-Arg-Pro-Gly-Pro. Residues 1 to 4 are tuftsin and residues 5 to 7 are the appended Pro-Gly-Pro. All residues are proteinogenic and neither terminus is protected.",
+    "modifications": []
+  },
+  "semax": {
+    "name": "Semax",
+    "sequence": "MEHFPGP",
+    "residueCount": 7,
+    "notation": "One-letter sequence, positions 1 to 7, N-terminus to C-terminus. In three-letter form: Met-Glu-His-Phe-Pro-Gly-Pro. All residues are proteinogenic and the backbone carries no modification at either terminus.",
+    "modifications": []
+  },
+  "sermorelin": {
+    "name": "Sermorelin",
+    "sequence": "Tyr-Ala-Asp-Ala-Ile-Phe-Thr-Asn-Ser-Tyr-Arg-Lys-Val-Leu-Gly-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Met-Ser-Arg-NH2",
+    "residueCount": 29,
+    "notation": "Three-letter sequence, positions 1 to 29, all residues proteinogenic and all L apart from the achiral glycine at 15. In one-letter code the chain is YADAIFTNSYRKVLGQLSARKLLQDIMSR, and the C-terminus is an arginine amide rather than a free carboxylate. There are no non-canonical residues, no D-residues, no cysteines and no cyclisation.",
+    "modifications": [
+      {
+        "position": "29",
+        "description": "C-terminal argininamide: the terminal carboxylate is replaced by a primary amide. This is the only chemical modification in the molecule, and it is deliberate rather than inherited, because the natural hormone's amide sits on leucine 44. Preparative routes to it include direct solid-phase synthesis and enzymatic alpha-amidation of a glycine-extended precursor."
+      }
+    ]
+  },
+  "snap-8": {
+    "name": "Snap-8 (acetyl octapeptide-3)",
+    "sequence": "EEMQRRAD",
+    "residueCount": 8,
+    "notation": "One-letter code, Ac-Glu-Glu-Met-Gln-Arg-Arg-Ala-Asp-NH2: acetyl on the N-terminal amine, amide on the alpha-carboxyl of Asp8 with the aspartate side chain left as a free acid, all eight residues L, no disulfide and no cyclisation",
+    "modifications": [
+      {
+        "position": "Glu1 alpha-amine",
+        "description": "N-terminal acetylation. The FDA substance record codes it as an acetyl glutamic acid residue at the N-terminus, and the PubChem depiction of the capped molecule draws the same acetamide."
+      },
+      {
+        "position": "Asp8 alpha-carboxyl",
+        "description": "C-terminal primary amide. The substance record expresses this as a substitution to isoasparagine, which is how it denotes an amide on the alpha-carboxyl of an aspartate whose side-chain carboxyl stays free; the PubChem SMILES for CID 76283482 draws exactly that arrangement."
+      }
+    ]
+  },
+  "somatropin": {
+    "name": "Somatropin",
+    "sequence": "FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF",
+    "residueCount": 191,
+    "notation": "One-letter code, all-L, positions 1 to 191 of the mature chain. This is residues 27 to 217 of the GH1 precursor in UniProt P01241, the 26-residue signal peptide having been removed; position 1 is the phenylalanine of the mature protein, and the chain ends in a free carboxylate at Phe191. The same 191-residue string is the single subunit recorded for somatropin in the FDA substance registry.",
+    "modifications": [
+      {
+        "position": "Cys53 to Cys165",
+        "description": "The large disulfide bond, which ties the long loop between the second and third core helices back to the body of the protein. Numbered 79 to 191 in the precursor numbering UniProt uses and 53 to 165 in the mature numbering used here and by the substance registry."
+      },
+      {
+        "position": "Cys182 to Cys189",
+        "description": "The small C-terminal disulfide bond, enclosing a short loop of six residues. It is the chemically vulnerable one: a variant isolated from bacterially expressed material had this bridge replaced by a non-reducible thioether, with the change detected by peptide mapping, de novo sequencing and near-UV circular dichroism."
+      },
+      {
+        "position": "Whole chain",
+        "description": "No carbohydrate. The protein carries no N-linked or O-linked glycan, which is why a bacterially expressed chain can reproduce the natural sequence exactly and why the measured mass of intact material is compared directly against the sum over the sequence."
+      }
+    ]
+  },
+  "ss-31": {
+    "name": "SS-31 (elamipretide)",
+    "sequence": "D-Arg-Dmt-Lys-Phe-NH2",
+    "residueCount": 4,
+    "notation": "Three-letter sequence, positions 1 to 4. Position 1 is D-arginine; Dmt at position 2 is 2',6'-dimethyl-L-tyrosine, a tyrosine carrying methyl groups on both ring positions flanking the phenol; positions 3 and 4 are L-lysine and L-phenylalanine, and the chain ends in a carboxamide rather than a free acid. Written as an amino-acid string with the modifications spelled out, the chain reads arginyl (D) to 2',6'-dimethyltyrosyl to lysyl to phenylalaninamide.",
+    "modifications": [
+      {
+        "position": "1",
+        "description": "D-arginine: the N-terminal residue is the D enantiomer, which is what the lower-case d in the literature's d-Arg denotes. The guanidinium side chain is retained."
+      },
+      {
+        "position": "2",
+        "description": "2',6'-dimethyl-L-tyrosine (Dmt), a non-proteinogenic residue. The two ring methyl groups flank the phenolic hydroxyl. The series' originators report that analogs lacking this residue did not inhibit mitochondrial reactive oxygen species generation or swelling, so it is the residue the class was designed around."
+      },
+      {
+        "position": "4",
+        "description": "C-terminal phenylalaninamide: the chain terminates in a primary carboxamide, removing the negative charge a free C-terminal carboxylate would carry."
+      }
+    ]
+  },
+  "survodutide": {
+    "name": "Survodutide",
+    "sequence": "His-Ac4c-Gln-Gly-Thr-Phe-Thr-Ser-Asp-Tyr-Ser-Lys-Tyr-Leu-Asp-Glu-Arg-Ala-Ala-Lys-Asp-Phe-Ile-Lys(acyl)-Trp-Leu-Glu-Ser-Ala-NH2",
+    "residueCount": 29,
+    "notation": "Three-letter sequence, positions 1 to 29. Ac4c is 1-aminocyclobutane-1-carboxylic acid, an achiral non-coded residue, at position 2; Lys24 carries the side-chain conjugate described under modifications; the C-terminus is an alanine amide. Two registries write the same chain in one-letter code as HXQGTFTSDYSKYLDERAAKDFIKWLESA, where X stands for the position-2 residue. Note that the chain carries three lysines, at positions 12, 20 and 24, and only the one at 24 is acylated.",
+    "modifications": [
+      {
+        "position": "2",
+        "description": "1-aminocyclobutane-1-carboxylic acid (Ac4c) in place of the serine glucagon carries here. The alpha carbon is part of a cyclobutane ring, which makes the residue achiral and alpha,alpha-dialkyl. Position 2 is the dipeptidyl peptidase-4 cleavage site on this family of peptides, and the discovery report names proteolytic stability as the reason for the substitution."
+      },
+      {
+        "position": "24",
+        "description": "The lysine side-chain nitrogen carries a hexapeptide linker read Gly-Gly-Ser-Gly-Ser-Gly outward from the lysine, then a gamma-linked L-glutamate, then octadecanedioic acid, a C18 chain with a carboxylic acid at each end. The distal carboxylate stays free. The FDA registry records the acyl fragment as N-(17-carboxy-1-oxoheptadecyl)-L-gamma-glutamylglycine and the junction as an amide bond between chain residue 24 and the sixth residue of the linker. The discovery report describes the diacid as an albumin-binding, half-life-extending group."
+      },
+      {
+        "position": "29",
+        "description": "C-terminal alanine amide rather than a free carboxylate. Named in the discovery report as a second proteolytic-stability measure and confirmed independently by the PubChem IUPAC name, which ends the chain in a 1-amino-1-oxopropan-2-yl group."
+      }
+    ]
+  },
+  "tb-500": {
+    "name": "TB-500",
+    "sequence": "Ac-Leu-Lys-Lys-Thr-Glu-Thr-Gln-OH",
+    "residueCount": 7,
+    "notation": "Three-letter sequence, positions 1 to 7, N-terminus acetylated and C-terminus a free carboxylate. In one-letter code the chain is LKKTETQ, which is residues 17 to 23 of the mature 43-residue thymosin beta-4 chain (verified by counting the UniProt P62328 mature sequence, where the stored 44-residue form loses its initiator methionine). All residues are proteinogenic L-amino acids.",
+    "modifications": [
+      {
+        "position": "1 (Leu, equivalent to Leu17 of thymosin beta-4)",
+        "description": "N-terminal acetyl on the alpha-amino group, added synthetically. It accounts for the whole 42 Da difference from the unacetylated heptapeptide and is a different site from the protein's own N-acetylserine, which lies sixteen residues upstream and is absent from this molecule."
+      }
+    ]
+  },
+  "tesamorelin": {
+    "name": "Tesamorelin",
+    "sequence": "(3E)-hex-3-enoyl-Tyr-Ala-Asp-Ala-Ile-Phe-Thr-Asn-Ser-Tyr-Arg-Lys-Val-Leu-Gly-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Met-Ser-Arg-Gln-Gln-Gly-Glu-Ser-Asn-Gln-Glu-Arg-Gly-Ala-Arg-Ala-Arg-Leu-NH2",
+    "residueCount": 44,
+    "notation": "Three-letter sequence, positions 1 to 44, all residues L and all proteinogenic. The underlying chain in one-letter code is YADAIFTNSYRKVLGQLSARKLLQDIMSRQQGESNQERGARARL, identical to the mature human hormone. The alpha-amino group of Tyr1 is acylated by (3E)-hex-3-enoic acid and the C-terminal leucine is an amide rather than a free acid.",
+    "modifications": [
+      {
+        "position": "1",
+        "description": "The alpha-amino nitrogen of the N-terminal tyrosine is acylated by (3E)-hex-3-enoyl, a six-carbon chain with a trans double bond between carbons 3 and 4. The FDA registry encodes it as a complete substitution of residue 1 by the fragment 3-hexenoyl tyrosine, (3E)- (UNII 09PC85U6VI). This is the only departure from the natural hormone's covalent structure."
+      },
+      {
+        "position": "44",
+        "description": "C-terminal leucinamide. This is not an addition of the analogue: the mature natural hormone is itself amidated at the same residue, curated as a Leucine amide modified residue at precursor position 75."
+      }
+    ]
+  },
+  "thymosin-alpha-1": {
+    "name": "Thymosin alpha-1",
+    "sequence": "Ac-Ser-Asp-Ala-Ala-Val-Asp-Thr-Ser-Ser-Glu-Ile-Thr-Thr-Lys-Asp-Leu-Lys-Glu-Lys-Lys-Glu-Val-Val-Glu-Glu-Ala-Glu-Asn",
+    "residueCount": 28,
+    "notation": "Three-letter sequence, positions 1 to 28, all residues L. In one-letter code the chain is Ac-SDAAVDTSSEITTKDLKEKKEVVEEAEN, with a free carboxylate on asparagine 28. Both deposited structures list the acetyl group as a separate monomer (chemical component ACE), so their files carry 29 positions for a peptide of 28 residues, and a position number read off a structure file is one higher than the number used in the papers.",
+    "modifications": [
+      {
+        "position": "1",
+        "description": "N-terminal acetyl on the alpha-amino group of serine 1, giving N-acetylserine. This is not a synthetic cap added for stability: the precursor itself carries N-acetylserine at the equivalent position after its initiator methionine is removed, so the acetyl is part of the molecule's natural identity."
+      }
+    ]
+  },
+  "vesugen": {
+    "name": "Vesugen",
+    "sequence": "Lys-Glu-Asp",
+    "residueCount": 3,
+    "notation": "Three-letter sequence, positions 1 to 3, all L-residues, written N-terminus first. One-letter code KED. The chain runs from the free alpha-amino group of Lys1 through two alpha-carboxyl peptide bonds to the C-terminal carboxylate of Asp3. The epsilon-amino group of Lys1, the gamma-carboxyl of Glu2 and the beta-carboxyl of Asp3 are all free side chains. There is no terminal amide, no acetyl cap and no cyclisation.",
+    "modifications": []
+  },
+  "vip": {
+    "name": "Vasoactive intestinal peptide (VIP)",
+    "sequence": "His-Ser-Asp-Ala-Val-Phe-Thr-Asp-Asn-Tyr-Thr-Arg-Leu-Arg-Lys-Gln-Met-Ala-Val-Lys-Lys-Tyr-Leu-Asn-Ser-Ile-Leu-Asn-NH2",
+    "residueCount": 28,
+    "notation": "Three-letter sequence, positions 1 to 28, with a C-terminal asparagine amide. In one-letter code the backbone is HSDAVFTDNYTRLRKQMAVKKYLNSILN. Human VIP is residues 125 to 152 of the precursor recorded as UniProt P01282, whose Asn152 is annotated as an asparagine amide.",
+    "modifications": [
+      {
+        "position": "28",
+        "description": "C-terminal asparagine amide rather than a free carboxylate, annotated as a modified residue at position 152 of the precursor. The amide is the mature form of the peptide; the 29-residue glycine-extended chain is its biosynthetic precursor."
+      }
+    ]
+  }
+}
